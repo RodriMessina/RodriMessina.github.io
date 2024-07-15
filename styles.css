@@ -1,0 +1,101 @@
+/* Configuración básica para el cuerpo del documento */
+body {
+    font-family: 'Arial', sans-serif; /* Establece la fuente del texto en Arial o una fuente genérica sin serifa. */
+    margin: 20px; /* Añade un margen de 20px a todos los lados del cuerpo para evitar que los elementos estén pegados al borde. */
+    padding: 0;
+    background-color: #f8f8f8; /* Establece el color de fondo del cuerpo en un gris claro. */
+    color: #333; /* Establece el color de texto en un tono de gris oscuro. */
+}
+
+/* Estilos para los encabezados de diferentes niveles */
+h1, h2, h3 {
+    color: #2d3e50; /* Establece el color de los encabezados en un tono específico de azul oscuro. */
+}
+
+/* Estilos para el elemento de centrado (Nota: la etiqueta 'center' está en desuso en HTML5) */
+center {
+    text-align: center; /* Centra el texto dentro del elemento que tenga la etiqueta 'center'. */
+}
+
+/* Estilos específicos para el encabezado h1 */
+h1 {
+    font-size: 2.5em; /* Establece el tamaño de fuente del h1 en 2.5 veces el tamaño predeterminado. */
+    margin: 20px 0; /* Agrega un margen de 20px en la parte superior e inferior del h1. */
+}
+
+/* Estilos específicos para el encabezado h2 */
+h2 {
+    font-size: 1.8em; /* Establece el tamaño de fuente del h2 en 1.8 veces el tamaño predeterminado. */
+    margin-bottom: 10px; /* Agrega un margen de 10px en la parte inferior del h2. */
+}
+
+/* Estilos específicos para los párrafos */
+p {
+    font-size: 1.1em; /* Establece el tamaño de fuente de los párrafos en 1.1 veces el tamaño predeterminado. */
+    line-height: 1.6; /* Establece la altura de línea en 1.6 veces el tamaño de la fuente. */
+}
+
+img{
+    margin-top: 20px;
+}
+
+.CajaVideo{
+    margin-top: 35px;
+}
+
+
+/* Estilos para las cajas de ingredientes y pasos */
+.CajaIngredientes, .CajaPasos {
+    float: left; /* Hace que las cajas de ingredientes y pasos floten a la izquierda para colocarse una al lado de la otra. */
+    width: calc(50% - 20px); /* Establece el ancho de las cajas en el 50% del contenedor menos 20px para el margen. */
+    background-color: #fff; /* Establece el color de fondo de las cajas en blanco. */
+    border: 1px solid #ddd; /* Establece un borde de 1px sólido con un color gris claro. */
+    padding: 20px; /* Agrega un relleno de 20px dentro de las cajas. */
+    margin: 20px 10px; /* Agrega un margen de 20px arriba/abajo y 10px a los lados. */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra ligera a las cajas. */
+}
+
+.CajaIngredientes h3, .CajaPasos h3 {
+    color: #e74c3c; /* Establece el color de los encabezados h3 dentro de las cajas en un tono específico de rojo. */
+}
+
+.CajaIngredientes ol, .CajaPasos ul {
+    margin-top: 10px; /* Agrega un margen en la parte superior de las listas dentro de las cajas. */
+}
+
+.CajaIngredientes li, .CajaPasos li {
+    font-size: 1.1em; /* Establece el tamaño de fuente de los elementos de la lista en 1.1 veces el tamaño predeterminado. */
+    line-height: 1.6; /* Establece la altura de línea de los elementos de la lista en 1.6 veces el tamaño de la fuente. */
+}
+
+/* Estilos para el pie de página */
+footer {
+    clear: both; /* Limpia los flotadores previos para evitar problemas de diseño. */
+    text-align: center; /* Centra el texto dentro del pie de página. */
+    padding: 10px; /* Agrega un relleno de 10px dentro del pie de página. */
+    background-color: #2c3e50; /* Establece el color de fondo del pie de página en un tono específico de azul oscuro. */
+    color: #fff; /* Establece el color del texto en blanco dentro del pie de página. */
+    font-size: 15px;
+}
+
+h5{
+    font-size: 10px;
+}
+
+/* Estilo predeterminado para la imagen del logo */
+.logo {
+    width: 350px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    transition: transform 0.3s ease; /* Transición suave para el efecto hover */
+}
+
+/* Efecto hover para la imagen del logo */
+.logo:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% cuando se pasa el mouse sobre ella */
+    cursor: pointer; /* Cambia el cursor a una mano para indicar que es interactivo */
+}
+
+.formulario{
+    display: flex;
+    width: 300px;
+}
